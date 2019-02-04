@@ -43,6 +43,7 @@ def get_binary_data():
 	X2 = X[Y <= 1]				# This means everytime the value of Y <= 1, then select the entire corresponding row in X.
 	Y2 = Y[Y <= 1]				# This means everytime the value of Y <= 1, then select that value.
 								# print(X2.shape) -> (398, 8), print(Y2.shape) -> (398,)
+	return X2, Y2
 
 
 
